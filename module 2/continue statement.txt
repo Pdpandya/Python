@@ -1,0 +1,8 @@
+When the continue statement is encountered, the control immediately goes back to the beginning of the loop for the next iteration, 
+skipping any remaining code within the loop for the current iteration.
+
+The loop condition is then re-evaluated, and if it is still true, the loop continues to the next iteration. If the loop condition is false, 
+the loop terminates.
+
+This can be useful in situations where you want to skip certain iterations based on a specific condition,
+ allowing you to control the flow of the loop more precisely.

@@ -1,0 +1,25 @@
+Python, memory management is handled by the Python memory manager. Key aspects include:
+
+Private Heap:
+Python has a private heap space for object storage.
+
+Allocation:
+Dynamic memory allocation is used for Python objects.
+
+Garbage Collection:
+Automatic garbage collection reclaims memory from unused objects.
+
+Reference Counting:
+Objects track the number of references; memory is freed when count drops to zero.
+
+Cycle Detector:
+A cycle detector identifies and collects cyclic references.
+
+Memory Pools:
+Memory pools group small objects for improved allocation efficiency.
+
+Optimizations:
+Memory manager includes optimizations for better performance.
+
+Profiling Tools:
+Tools like sys.getsizeof() aid memory profiling and monitoring.
