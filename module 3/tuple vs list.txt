@@ -1,0 +1,14 @@
+A tuple in Python is an immutable sequence of elements. It is similar to a list, but unlike lists, tuples cannot be modified after they are created. Tuples are created using parentheses ().
+
+Here are some key differences between lists and tuples:
+
+Lists can have items added, removed, or modified after they are generated because they are changeable. However, once a tuple is generated, its elements cannot be changed. This is known as immutability.
+
+Syntax:
+ Square brackets [] are used to build lists, and parentheses () are used to generate tuples.
+
+Performance: 
+Due to their immutability, tuples are typically quicker and more memory-efficient than lists, especially when working with huge datasets.
+
+Use:
+ Lists are generally employed in collections of similar objects where it is important to maintain the collection's order and determine whether duplicates are present. Tuples are frequently used to return several values from a function or to represent heterogeneous data, such as a fixed collection of objects.

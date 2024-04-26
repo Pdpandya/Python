@@ -1,0 +1,8 @@
+
+Built-in functions: These are the functions that are built into Python, such as print(), len(), range(), etc. They are readily available for use without the need to import any module.
+
+
+User-defined functions: These are functions defined by the user to perform a specific task. They are created using the def keyword followed by the function name, parameters (if any), and a block of code.
+
+
+Anonymous functions (Lambda functions): Lambda functions are small, anonymous functions defined using the lambda keyword. They can have any number of parameters but only one expression.
