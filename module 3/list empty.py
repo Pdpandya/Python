@@ -1,4 +1,4 @@
-my_list = []  # Empty list
+my_list = []  
 
 if my_list:
     print("List is not empty.")

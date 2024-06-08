@@ -1,4 +1,4 @@
-my_list = [1, 2, 3, 4, 5]
-last_item = my_list.pop(-1)
-print( last_item)
-print( my_list)
+list = [1, 2, 3, 4, 5]
+litem =list.pop(-1)
+print( litem)
+print(list)

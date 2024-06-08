@@ -1,9 +1,7 @@
-import math
 
-# Input degree value
+pi = 3.14
 degrees = float(input("Enter the degree value: "))
 
-# Convert degrees to radians
-radians = degrees * (math.pi / 180)
+radians = degrees * (pi / 180)
 
 print( degrees, "is equal to ",radians)

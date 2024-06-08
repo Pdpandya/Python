@@ -1,10 +1,6 @@
-# List of tuples containing key-value pairs
 tuple_list = [('a', 1), ('b', 2), ('c', 3)]
-
-# Create a dictionary using the dict() constructor
 dictionary = dict(tuple_list)
 
-# Output the dictionary
 print("Dictionary:", dictionary)
 
 

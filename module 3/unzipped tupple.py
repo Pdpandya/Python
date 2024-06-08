@@ -1,9 +1,6 @@
-# List of tuples to unzip
-list = [(1, 'a'), (2, 'b'), (3, 'c')]
+l = [(1, 'a'), (2, 'b'), (3, 'c')]
 
-# Unzip the list of tuples into individual lists
-unzipped_lists = (zip(*list))
+u= (zip(*l))
 
-# Output the unzipped lists
-print("List of tuples:", list)
-print("Unzipped lists:", unzipped_lists)
+print("List of tuples:", l)
+print("Unzipped lists:", u)

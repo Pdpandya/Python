@@ -1,9 +1,6 @@
-# Tuple to convert to string
-my_tuple = ('Hello', 'World', 'Python')
+t = ('Hello', 'World', 'Python')
 
-# Convert the tuple to a string
-tuple_string = ' '.join(map(str, my_tuple))
+s = ' '.join(map(str, t))
 
-# Output the result
-print("Tuple:", my_tuple)
-print("String:", tuple_string)
+print("tuple:", t)
+print("String:", s)

@@ -1,8 +1,7 @@
-# Generate a list of squares of numbers between 1 and 30
-squared_list = [i ** 2 for i in range(1, 31)]
+list = [(1,31), (2, 41), (3, 51), (4, 61)]
+for item in list:
+    item[0] ** 2
+    
+print("First 5 elements:", list[:2])
 
-# Print the first 5 elements
-print("First 5 elements:", squared_list[:5])
-
-# Print the last 5 elements
-print("Last 5 elements:", squared_list[-5:])
+print("Last 5 elements:", list[-2:])

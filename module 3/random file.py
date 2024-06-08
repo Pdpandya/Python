@@ -7,4 +7,4 @@ with open(filename, 'r') as file:
     random_line = random.choice(lines)
 
 print("Random line from the file:")
-print(random_line.strip())  # Stripping to remove leading whitespace
+print(random_line.strip())  
